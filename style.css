@@ -1,0 +1,44 @@
+.main{
+    text-align: center ; 
+}
+body{
+    padding: 10px ;
+    
+    margin: 15px 20px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.background{
+    background-color: rgb(255, 217, 47);
+   padding-left: 30px;
+   padding-top: 10px;
+border: 2px solid lightgrey;
+border-radius: 25px;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+select
+{ 
+     width: 98%;
+  
+}
+input[type="submit"]{
+    padding: 5px;
+    text-transform: uppercase;
+    width: 10%;
+    background-color: aquamarine;
+     color: black;
+     cursor: pointer;
+     font-size: 20px;
+     font-weight: bold;
+     border-radius: 50px;
+
+}
+
+input[type="submit"]:hover{
+    background-color:black;
+    color: white;
+    border-radius: 50px;
+}
